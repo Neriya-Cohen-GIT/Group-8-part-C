@@ -1,8 +1,8 @@
 # Group-8-part-C
 
-#README – PART 3
-##the idea:
-###Web app built by using HTML,CSS JS pages , designed by Yoav Berhanu and Neriya Cohen for WEB Development Course.
+# README – PART 3
+## the idea:
+### Web app built by using HTML,CSS JS pages , designed by Yoav Berhanu and Neriya Cohen for WEB Development Course.
 activity/functionality:
 1)	First, User enters his email and password that he chose when registering , If not registered , he’d be able to sign for registration that navigates into “Create Account”.
    
@@ -19,14 +19,14 @@ activity/functionality:
    
 7)	”Contact Us” optional page, where the user can write a message to our sales department or make a call.
 
-##*DB: 
+## *DB: 
 The databases include collections of our products and customers data. When adding new customer, insertion of data process will begin. DBs can also assist the system during logging /updating process.  
 
-##*Routing:
+## *Routing:
 Our site is client-responsive in terms of routing & navigating between pages using routing requests and navigation buttons.
 
-##*Forms: 
+## *Forms: 
 In this part we used the form type of data gathering in order to ease the validation & processing of details.
 
 
-###נריה כהן ויואב ברהנו
+### נריה כהן ויואב ברהנו
