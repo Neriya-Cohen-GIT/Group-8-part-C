@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Contact Us
+{% endblock %}
+
+
+{% block page_head_css %}
+    <link rel="stylesheet" href="{{url_for('contactUs.static', filename='css/contactUs.css')}}"/>
+{% endblock %}
+
+{% block additioalheader %}
+      <div class="div-contact-header">
+        <div>
+          <a href="{{url_for('homepage.index')}}" class="home-button">Home</a>
+          <a href="{{url_for('ordersMenu.index')}}" class="order-link">Orders Menu</a>
+          <a href="{{url_for('aboutUs.index')}}" class="about-link">About Us</a>
+      </div>
+      <div>
+                <a href="{{ url_for('signIn.logout') }}" class="logout-button">Logout</a>
+
+      </div>
+       </div>
+
+      <h1 class="contact-text">Contact Us</h1>
+{% endblock %}
+
+{% block page_body_main_content %}
+   <section class="section">
+      <div class="contact-content">
+
+        <div id="success-alert" class="alert alert-success" role="alert" style="display: none;">
+            Thank you for contacting us! We will try to answer as soon as possible.
+        </div>
+
+        <form id="process-contact" method="post" class="contact-form">
+
+            <label for="name" class="contact-label">Your Name:</label>
+            <input type="text" id="name" name="name" required class="contact-input">
+
+            <label for="email" class="contact-label">Your Email:</label>
+            <input type="email" id="email" name="email" required class="contact-input">
+
+            <label for="message" class="contact-label">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required class="contact-input-text"></textarea>
+
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+
+         </div>
+
+    </section>
+{% endblock %}
+
+{% block page_body_js %}
+    <script src="{{ url_for('contactUs.static', filename='JS/contactUs.js') }}"></script>
+{% endblock %}

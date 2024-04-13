@@ -1,0 +1,123 @@
+  /* payment*/
+
+ .div-payment{
+   display: flex;
+  justify-content: space-between;
+   align-items: center;
+ }
+
+
+  .home-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #8d2773;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+    text-align: right;
+}
+
+.button-link:hover {
+  background-color: #8d2773;
+}
+
+.payment-text{
+      background-color: #ffe5cc;
+    color: #281f1e;
+    padding: 10px;
+  border-radius: 8px;
+    text-align: center;
+  margin-bottom: 20px;
+}
+
+.section{
+  display: flex;
+  justify-content: space-around; /* Align white block to center */
+  align-items: center;
+   position: relative;
+  padding: 20px;
+  text-align: center;
+}
+
+.total-amount{
+    background-color: #f3e3e3;
+  padding: 20px;
+  border-radius: 8px;
+  color: #281f1e;
+  text-align: center;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+}
+
+.payment-content{
+    background-color: #ffffff;
+  color: #100d0d;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 900px;
+}
+
+.payment-form{
+    background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.payment-label{
+   display: block;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.payment-input[type="text"]{
+      display: block;
+    margin-bottom: 20px;
+    width: 600px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.payment-input[type="number"]{
+      display: block;
+    margin-bottom: 20px;
+    width: 600px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+  .submit-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .cart-link{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #8d2773;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  text-align: right;
+}
+
+  .button-link:hover {
+  background-color: #8d2773;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}

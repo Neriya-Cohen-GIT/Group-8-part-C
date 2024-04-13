@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Orders Menu
+{% endblock %}
+
+
+{% block page_head_css %}
+    <link rel="stylesheet" href="{{url_for('ordersMenu.static', filename='css/ordersMenu.css')}}"/>
+{% endblock %}
+
+{% block additioalheader %}
+    <div class="div-order-header">
+        <a href="{{url_for('homepage.index')}}" class="home-button">Home</a>
+        <a href="{{url_for('contactUs.index')}}" class="contact-link">Contact Us</a>
+        <a href="{{url_for('aboutUs.index')}}" class="about-link">About Us</a>
+    </div>
+    <h1 class="order-text">Cakes & Pastries</h1>
+{% endblock %}
+
+{% block page_body_main_content %}
+    <section>
+        <main class="main">
+            <div class="side-panel">
+
+                <div class="allergens">
+                    <h2 class="h2-allergens">Allergens</h2>
+                    <ul class="allergens-list">
+                        <!-- Allergens will be populated dynamically -->
+                    </ul>
+                </div>
+
+                <div class="ingredients">
+                    <h2 class="h2-ingredients">Ingredients</h2>
+                    <ul class="ingredients-list">
+                        <!-- Ingredients will be populated dynamically -->
+                    </ul>
+                </div>
+                <a href="{{url_for('myCart.index')}}" class="cart-link">My Cart</a>
+
+                <footer class="newfooter">
+                    <p>&copy; 2024 Cake For You. All rights reserved.</p>
+                </footer>
+            </div>
+
+            <div class="cakes-container">
+                <!-- Cakes will be populated dynamically -->
+            </div>
+
+        </main>
+    </section>
+{% endblock %}
+
+{% block footer %}{% endblock %}
+
+{% block page_body_js %}
+    <script src="{{ url_for('ordersMenu.static', filename='JS/ordersMenu.js') }}"></script>
+{% endblock %}

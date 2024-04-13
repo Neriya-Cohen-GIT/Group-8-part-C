@@ -1,0 +1,131 @@
+  /* Sign in- login */
+
+
+ .div-LOGIN{
+   display: flex;
+  justify-content: space-between;
+   align-items: center;
+ }
+
+
+.login-text {
+    background-color: #ffe5cc;
+    color: #281f1e;
+    padding: 10px;
+  border-radius: 8px;
+    text-align: center;
+  margin-bottom: 20px;
+
+}
+
+.section{
+  display: flex;
+  justify-content: space-around; /* Align white block to center */
+  align-items: center;
+   position: relative;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.login-content {
+  background-color: #ffffff;
+  color: #100d0d;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 900px;
+}
+
+
+.signIn-form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 900px;
+  margin: 0 auto;
+
+  }
+.signIn-label{
+   display: block;
+  margin-bottom: 8px;
+}
+
+  .signIn-input[type="email"]{
+    display: block;
+    margin-bottom: 20px;
+    width: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .signIn-input[type="password"]{
+    display: block;
+    margin-bottom: 20px;
+    width: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .submit-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+
+.register-link {
+    text-align: center;
+}
+
+.register-link a {
+    color: blue;
+}
+
+
+
+
+  .photo-left {
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    width: 260px;
+    /*width: 250px;*/
+    height: auto;
+}
+
+.photo-bottom-right {
+    position: absolute;
+    bottom:0;
+    right: 30px;
+    width: 235px;
+    height: auto;
+}
+
+
+   @media (max-width: 600px) {
+     .photo-left, .photo-bottom-right {
+       display: none;
+     }
+
+     .home-button, .order-link, .contact-link, .about-link, .login-link, .register-link, .customized-link {
+       padding: 6px 6px;
+       align-items: center;
+     }
+
+     @media (max-width: 600px) {
+       .home-content, .section  {
+           margin-right: 0;
+
+
+       }
+
+     }
+   }
+
+

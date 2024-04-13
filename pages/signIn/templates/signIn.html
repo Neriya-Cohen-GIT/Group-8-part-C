@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Sign In
+{% endblock %}
+
+
+{% block page_head_css %}
+    <link rel="stylesheet" href="{{url_for('signIn.static', filename='css/signIn.css')}}"/>
+{% endblock %}
+
+{% block additioalheader %}
+      <div class="div-LOGIN"></div>
+
+    <h1 class="login-text">Login</h1>
+{% endblock %}
+
+{% block page_body_main_content %}
+   <section class="section">
+      <img src="{{url_for('static', filename='pics/2-login 1.jpg')}}" alt="Photo Left" class="photo-left">
+
+      <div class="login-content">
+        <form action="{{ url_for('signIn.index') }}" method="POST" class="signIn-form" id="signInForm">
+            <label for="email" class="signIn-label">Email:</label>
+            <input type="email" id="email" name="email" required class="signIn-input">
+
+            <label for="password" class="signIn-label">Password:</label>
+            <input type="password" id="password" name="password" required class="signIn-input">
+
+            <button type="submit" class="submit-button">Sign In</button>
+        </form>
+
+        <div class="register-link">
+            <span>No user? <a href="{{ url_for('registers.index') }}">Register here</a></span>
+        </div>
+
+      </div>
+            <img src="{{url_for('static', filename='pics/2-login 2.jpg')}}" alt="Photo Bottom Right" class="photo-bottom-right">
+
+    </section>
+{% endblock %}
+

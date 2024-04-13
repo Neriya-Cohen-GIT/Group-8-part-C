@@ -1,0 +1,125 @@
+.logout-button{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #8d2773;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  text-align: right;
+}
+
+
+.section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+}
+
+.home-content {
+  background-color: #ffffff;
+  color: #281f1e;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 600px;
+  float: left; /* Align to the left side of the page */
+  margin-right: 500px;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+.order-link{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #b9689f;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+
+
+.about-link{
+    display: inline-block;
+  padding: 10px 20px;
+  background-color: #b9689f;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+
+.contact-link{
+    display: inline-block;
+  padding: 10px 20px;
+  background-color: #b9689f;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+
+.button-link:hover {
+  background-color: #b9689f;
+}
+
+.photo-bottom-right {
+    position: absolute;
+    bottom:0;
+    right: 30px;
+    width: 390px;
+    height: auto;
+}
+
+
+.home-text-animation {
+    background-color: #ffe5cc;
+  color: #281f1e;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 20px;
+
+    animation-name: home-text-animation;
+    animation-duration: 4s;
+}
+
+@keyframes home-text-animation {
+
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+   @media (max-width: 600px) {
+     .photo-bottom-right  {
+       display: none;
+     }
+
+     .home-button, .order-link, .contact-link, .about-link, .login-link, .register-link, .customized-link {
+       padding: 6px 6px;
+       align-items: center;
+     }
+
+     @media (max-width: 600px) {
+       .home-content, .section  {
+           margin-right: 0;
+
+
+       }
+
+     }
+   }

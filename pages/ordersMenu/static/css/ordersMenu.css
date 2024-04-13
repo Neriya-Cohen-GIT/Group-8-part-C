@@ -1,0 +1,202 @@
+ /* order from our manu*/
+
+
+.div-order-header{
+       display: flex;
+  justify-content: space-between;
+   align-items: center;
+}
+
+
+  .home-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #8d2773;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+    text-align: right;
+}
+
+
+.about-link{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #8d2773;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  text-align: right;
+}
+
+.contact-link{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #8d2773;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  text-align: right;
+}
+
+.logout-button{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #8d2773;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  text-align: right;
+}
+
+
+.button-link:hover {
+  background-color: #8d2773;
+}
+
+.order-text{
+      background-color: #ffe5cc;
+  color: #281f1e;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+    text-align: center;
+}
+
+.main{
+      display: flex;
+    padding: 20px;
+}
+
+.side-panel{
+      width: 25%;
+    padding-right: 20px;
+}
+
+
+.h2-allergens, .h2-ingredients {
+   display: inline-block;
+  background-color: #efcecf;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.allergens-list , .ingredients-list{
+      display: inline-block;
+     padding: 10px 20px;
+    margin: 10px;
+    background-color: rgba(229, 177, 159, 0.69);
+    color: #281f1e;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cakes-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+  position: absolute;
+    top:300px ;
+  right: 25px;
+}
+
+.cake-item {
+    width: calc(33.333% - 20px);
+    margin-right: 20px;
+    margin-bottom: 35px;
+}
+
+.cake-name {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cake-price{
+   cursor: pointer;
+}
+
+.cake-image {
+    width: 65%;
+  height: 65%;
+
+}
+
+.cake-info {
+    display: none;
+}
+
+
+ .cart-link{
+     display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+    align-items:center;
+}
+
+.button-link:hover {
+  background-color: #4CAF50;
+}
+
+ .newfooter {
+
+  background-color: #ffe5cc;
+  color: #5D4C46;
+
+  text-align: left;
+ bottom: 0;
+   position: page;
+   width: 50%;
+
+  }
+
+
+    /* Responsive styles */
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .side-panel {
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .cakes-container {
+          display: flex;
+    flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .cake-item {
+        width: calc(50% - 100px);
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    @media (max-width: 600px) {
+      .cakes-container {
+          position: absolute;
+          top:750px ;
+          left: 100px;
+
+      }
+
+    }
+   @media (max-width: 700px) {
+     .home-button, .customized-link,.contact-link, .about-link, .login-link, .register-link{
+       padding: 6px 6px;
+     }
+   }
+}
+

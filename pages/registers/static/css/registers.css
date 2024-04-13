@@ -1,0 +1,157 @@
+ /* create account- sign up*/
+
+.div-register{
+     display: flex;
+  justify-content: space-between;
+   align-items: center;
+}
+
+.section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  padding: 20px;
+  text-align: left;
+}
+
+.register-content{
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  color: #281f1e;
+  text-align: left;
+  max-width: 600px;
+  float: left; /* Align to the left side of the page */
+  margin-right: 750px;
+}
+
+.register-text{
+  background-color: #ffffff;
+  color: #5D4C46;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.register-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+
+.register-label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.register-input[type="text"]{
+  display: block;
+  margin-bottom: 20px;
+  width: 400px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.register-input[type="number"]{
+  display: block;
+  margin-bottom: 20px;
+  width: 400px;
+  padding: 5px;
+  box-sizing: border-box;
+  }
+
+.register-input[type="date"]{
+  display: block;
+  margin-bottom: 20px;
+  width: 400px;
+  padding: 5px;
+  box-sizing: border-box;
+  }
+
+.register-input[type="email"]{
+  display: block;
+  margin-bottom: 20px;
+  width: 400px;
+  padding: 5px;
+  box-sizing: border-box;
+  }
+
+.register-input[type="tel"]{
+  display: block;
+  margin-bottom: 20px;
+  width: 400px;
+  padding: 5px;
+  box-sizing: border-box;
+  }
+
+.register-input[type="password"]{
+  display: block;
+  margin-bottom: 20px;
+  width: 400px;
+  padding: 5px;
+  box-sizing: border-box;
+  }
+
+  .submit-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+  }
+
+
+.login-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-link {
+      color: blue;
+    text-decoration: none;
+}
+
+.login-link:hover {
+    text-decoration: underline;
+}
+
+.footer {
+  background-color: #ffe5cc;
+  color: #5D4C46;
+  padding: 10px;
+  text-align: center;
+  }
+
+.photo-right {
+  position: absolute;
+  top:120px ;
+  right: 25px;
+  width: 650px;
+  height: auto;
+}
+
+   @media (max-width: 600px) {
+     .photo-right {
+       display: none;
+     }
+
+     .home-button, .order-link, .contact-link, .about-link, .login-link, .register-link, .customized-link {
+       padding: 6px 6px;
+     }
+
+     @media (max-width: 600px) {
+       .register-content {
+           margin-right: 0px;
+
+       }
+
+     }
+   }

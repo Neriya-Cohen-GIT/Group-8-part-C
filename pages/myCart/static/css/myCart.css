@@ -1,0 +1,146 @@
+ /* my cart*/
+
+
+
+.cart-header{
+          padding: 20px;
+    text-align: left;
+}
+
+.div-cart-header{
+  display: flex;
+  justify-content: space-between;
+   align-items: center;
+}
+
+
+
+  .home-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #8d2773;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+    text-align: right;
+}
+
+
+
+.about-link{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #8d2773;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  text-align: right;
+}
+
+.contact-link{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #8d2773;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  text-align: right;
+}
+
+
+.button-link:hover {
+  background-color: #8d2773;
+}
+
+.cart-container{
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+.cart-item{
+  width: calc(33.333% - 20px);
+}
+
+.cake-name {
+    width: 100%;
+    height: auto;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cake-price{
+   cursor: pointer;
+}
+
+
+
+.cake-image {
+    width: 65%;
+  height: 65%;
+
+}
+
+
+
+.total-amount{
+    background-color: #f3e3e3;
+  padding: 20px;
+  border-radius: 8px;
+  color: #281f1e;
+  text-align: center;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+}
+
+.order-link-link{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  align-items:center;
+
+}
+ .payment-link{
+     display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  text-align: right;
+}
+
+.button-link:hover {
+  background-color: #4CAF50;
+}
+
+
+
+   @media (max-width: 700px) {
+     .home-button, .customized-link,.contact-link, .about-link, .login-link, .register-link{
+       padding: 6px 6px;
+     }
+   }
+
+
+
+
+
+
+
+
+
+
+

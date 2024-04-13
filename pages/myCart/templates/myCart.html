@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block title %}
+My Cart
+{% endblock %}
+
+{% block page_head_css %}
+    <link rel="stylesheet" href="{{ url_for('myCart.static', filename='css/myCart.css') }}"/>
+{% endblock %}
+
+{% block additional_header %}
+    <div class="div-cart-header">
+        <a href="{{ url_for('homepage.index') }}" class="home-button">Home</a>
+        <a href="{{ url_for('contactUs.index') }}" class="contact-link">Contact Us</a>
+        <a href="{{ url_for('aboutUs.index') }}" class="about-link">About Us</a>
+    </div>
+{% endblock %}
+
+{% block page_body_main_content %}
+    <section class="cart-container">
+        <!-- Cart items will be dynamically populated here -->
+    </section>
+
+    <div class="total-amount">
+        Total Amount: <span id="total-price">$0</span>
+    </div>
+
+    <a href="{{ url_for('ordersMenu.index') }}" class="order-link-link">Back to menu</a>
+    <a href="{{ url_for('payment.index') }}" class="payment-link">Go to payment</a>
+{% endblock %}
+
+{% block page_body_js %}
+    <script src="{{ url_for('myCart.static', filename='JS/myCart.js') }}"></script>
+{% endblock %}

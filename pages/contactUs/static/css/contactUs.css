@@ -1,0 +1,163 @@
+ /* contact us*/
+
+
+ .div-contact-header{
+     display: flex;
+  justify-content: space-between;
+   align-items: center;
+ }
+
+
+  .home-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #8d2773;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+    text-align: right;
+}
+
+
+.order-link{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #8d2773;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  text-align: right;
+}
+
+.customized-link{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #8d2773;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  text-align: right;
+}
+
+.about-link{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #8d2773;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  text-align: right;
+}
+.logout-button{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #8d2773;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  text-align: right;
+}
+.button-link:hover {
+  background-color: #8d2773;
+}
+
+  .contact-text{
+  background-color: #ffe5cc;
+  color: #281f1e;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+    text-align: center;
+}
+
+  .section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+}
+
+  .contact-content{
+     background-color: #ffffff;
+  color: #100d0d;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 12px;
+  text-align: left;
+  max-width: 900px;
+  }
+
+ .contact-form{
+  background-color: #ffffff;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  }
+
+ .signIn-label{
+   display: block;
+  margin-bottom: 10px;
+}
+
+
+
+ .contact-input[type="text"]{
+      display: block;
+    margin-bottom: 30px;
+ width: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+
+ }
+
+  .contact-input[type="email"]{
+      display: block;
+    margin-bottom: 30px;
+    width: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+ }
+
+ .contact-input-text{
+      display: block;
+    margin-bottom: 39px;
+    width: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+
+ }
+
+   .submit-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+  }
+
+   .footer {
+  background-color: #ffe5cc;
+  color: #5D4C46;
+  padding: 10px;
+  text-align: center;
+  }
+
+   @media (max-width: 600px) {
+
+     .home-button, .order-link,.contact-link, .about-link, .login-link, .register-link, .customized-link{
+       padding: 6px 6px;
+     }
+
+   }

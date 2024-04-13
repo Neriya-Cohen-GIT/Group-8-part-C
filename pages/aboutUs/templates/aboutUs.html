@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block title %}
+About Us
+{% endblock %}
+
+
+{% block page_head_css %}
+    <link rel="stylesheet" href="{{url_for('aboutUs.static', filename='css/aboutUs.css')}}"/>
+{% endblock %}
+
+{% block additioalheader %}
+      <div class="div-about-header">
+        <div >
+          <a href="{{url_for('homepage.index')}}" class="home-button">Home</a>
+          <a href="{{url_for('ordersMenu.index')}}" class="order-link">Orders Menu</a>
+          <a href="{{url_for('contactUs.index')}}" class="contact-link">Contact Us</a>
+      </div>
+      <div >
+          <a href="{{ url_for('signIn.logout') }}" class="logout-button">Logout</a>
+
+      </div>
+       </div>
+
+      <h1  class="about-text">About Us</h1>
+{% endblock %}
+
+{% block page_body_main_content %}
+   <section class="section">
+
+      <div class="about-container">
+
+          <div>
+        <img src="{{url_for('static', filename='pics/8-about us.jpg')}}" class="photo-left" alt="photo-left">
+          <img src="{{url_for('static', filename='pics/8- about us 2.jpg')}}" class="photo-right" alt="photo-right">
+      </div>
+
+          <div class="about-content">
+
+            <p>Cake For You is a destination for moments made sweeter! Join us for a journey of unique unparalleled taste.</p>
+
+           <h2>Information</h2>
+           <p><strong>Address:</strong> Beer Sheba , Israel</p>
+           <p><strong>Phone Number:</strong> (123) 456-7890</p>
+            <p><strong>Hours of Operation:</strong> Sunday to Friday, 8:00  - 22:00 </p>
+
+          </div>
+       </div>
+
+    </section>
+{% endblock %}

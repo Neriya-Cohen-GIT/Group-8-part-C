@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Welcome!
+{% endblock %}
+
+
+{% block page_head_css %}
+    <link rel="stylesheet" href="{{ url_for('homepage.static', filename='css/homepage.css') }}"/>
+{% endblock %}
+
+{% block additioalheader %}
+  <div>
+      <a href="{{ url_for('signIn.logout') }}" class="logout-button">Logout</a>
+  </div>
+        <h1 class="home-text-animation">welcome!</h1>
+
+{% endblock %}
+
+{% block page_body_main_content %}
+   <section class="section">
+      <div class="home-content">
+
+          <div>
+              <a href="{{url_for('ordersMenu.index')}}" class="order-link">Orders Menu</a>
+          </div>
+
+        <div>
+           <a href="{{url_for('aboutUs.index')}}" class="about-link">About Us</a>
+        </div>
+
+         <div>
+             <a href="{{url_for('contactUs.index')}}" class="contact-link">Contact Us</a>
+        </div>
+
+      </div>
+        <img src="{{url_for('static', filename='pics/home.jpg')}}" class="photo-bottom-right" alt="photo">
+
+    </section>
+
+{% endblock %}
