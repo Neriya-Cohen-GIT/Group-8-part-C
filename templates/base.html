@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    {% block page_head %}
+        {# Meta tags #}
+        {% block page_head_meta %}
+            <base href="/"/>
+            <meta charset="UTF-8"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            {% block page_head_meta_extra %}{% endblock %}
+        {% endblock %}
+
+            {# Title #}
+        <title>{% block title %}base {% endblock %}</title>
+         {# CSS #}
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}"/>
+        {% block page_head_css %}{% endblock %}
+
+
+
+    {% endblock %}
+    </head>
+
+
+    <body>
+      {#   {% block navbar %}
+        {% include 'navbar.html' %}
+        {% endblock %} #}
+        {% block page_body_content %}
+
+            {# Header #}
+            {% block header %}
+                {% include 'header.html' %}
+                {% block additioalheader %}
+                    {% endblock %}
+            {% endblock %}
+
+            {# Main #}
+            {% block page_body_main_content %}
+            {% endblock %}
+        {% endblock %}
+
+      {% block footer %}
+          {% block additioalfooterr %}
+          {% endblock %}
+          {% include('footer.html') %}
+      {% endblock %}
+
+        {# JS #}
+        {% block page_body_js %}{% endblock %}
+
+    </body>
+</html>
