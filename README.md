@@ -36,6 +36,7 @@ In this part we used the form type of data gathering in order to ease the valida
 ### *sign in page:
 ![image](https://github.com/neriya-hub/Group-8-part-C/assets/135694507/f2d7953e-aec4-44ea-89f4-330b4c8a293e)
 
+#
 
 ### *register page:
 ![image](https://github.com/neriya-hub/Group-8-part-C/assets/135694507/f4096223-a60a-4dbe-9816-6f22c81af251)
@@ -44,32 +45,37 @@ In this part we used the form type of data gathering in order to ease the valida
 ### *home page:
 ![image](https://github.com/neriya-hub/Group-8-part-C/assets/135694507/9951eb09-e058-4ae3-9bf0-bf27d2f739b9)
 
+#
 
 ### *orders from our manue page:
 ![image](https://github.com/neriya-hub/Group-8-part-C/assets/135694507/46770b1a-e1b8-40dd-9b18-a136b16a6d51)
 
+# 
 
 #### after adjasting and choosing only Gluten Free:
 ![image](https://github.com/neriya-hub/Group-8-part-C/assets/135694507/abdfe156-535b-4885-9a82-6b3d964da8db)
 
+#
 
 ### *my cart:
 ![image](https://github.com/neriya-hub/Group-8-part-C/assets/135694507/58bd1259-67b0-40f1-b14f-90881ed21091)
 
+#
 
 ### *payment page:
 ![image](https://github.com/neriya-hub/Group-8-part-C/assets/135694507/44970b8b-7ca8-4029-bec4-c6d93397b926)
 
-
+#
 
 ### *contact us:
 ![image](https://github.com/neriya-hub/Group-8-part-C/assets/135694507/743bac8e-f65c-4438-bb15-2ada5f1fca0c)
 
-
+#
 
 ### *about us:
 ![image](https://github.com/neriya-hub/Group-8-part-C/assets/135694507/ff8f7cfe-0bcd-407b-9479-eecb095dbfb1)
 
+#
 
 
 ### נריה כהן ויואב ברהנו
