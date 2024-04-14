@@ -1,14 +1,17 @@
-# Group-8-part-C
+
 
 # README – PART 3
 ## the idea:
 ### Web app built by using HTML,CSS JS pages , designed by Yoav Berhanu and Neriya Cohen for WEB Development Course.
 activity/functionality:
 1)	First, User enters his email and password that he chose when registering , If not registered , he’d be able to sign for registration that navigates into “Create Account”.
+
+![image](https://github.com/neriya-hub/Group-8-part-C/assets/135694507/f4096223-a60a-4dbe-9816-6f22c81af251)
+
    
-2)	When register, the user will enter details like name,  age, valid email , 10 digit phone number and valid password in order to get our service.
+3)	When register, the user will enter details like name,  age, valid email , 10 digit phone number and valid password in order to get our service.
    
-3)	the user reaches main page with all the links to the other pages, user can navigate between menu, account and payment.
+4)	the user reaches main page with all the links to the other pages, user can navigate between menu, account and payment.
 * Navigation buttons will appear at the top of every page to enhance connectivity in the web app, also easy to sign in and user-friendly create account.
   
 4)	Menu page will offer variety of pastry of our making, with their high quality photos and prices beneath. The user would click “add to cart” to choose the product.
